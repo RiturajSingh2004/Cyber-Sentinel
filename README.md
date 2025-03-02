@@ -115,6 +115,6 @@ Cyber Sentinel is a browser extension designed to enhance online security by ana
 
 This project is licensed under the MIT License.
 
-## Contributing
+## Authors & Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
