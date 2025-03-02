@@ -1,0 +1,11 @@
+flask
+flask_cors
+numpy
+requests
+whois
+python-magic
+beautifulsoup4
+html5lib
+transformers
+torch
+urllib3
