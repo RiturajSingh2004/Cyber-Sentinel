@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Sentinel</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                    <path d="M9 12l2 2 4-4"/>
+                </svg>
+            </div>
+            <h1>Cyber Sentinel</h1>
+            <button id="themeToggle" class="theme-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="theme-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+            </button>
+        </header>
+
+        <main>
+            <div class="url-input-container">
+                <input type="text" id="urlInput" class="url-input" placeholder="Current URL" disabled>
+            </div>
+
+            <button id="checkButton" class="button">
+                <span class="button-text">Check Current Page</span>
+                <div class="spinner hidden"></div>
+            </button>
+            
+            <section class="result-container">
+                <h2 class="result-label">Authenticity Result</h2>
+                <div id="result" class="result-text hidden"></div>
+            </section>
+
+            <div id="error" class="error hidden"></div>
+
+            <div class="file-upload-section">
+                <h2>Advanced File Analysis</h2>
+                <form id="fileUploadForm" enctype="multipart/form-data">
+                    <input type="file" id="fileInput" class="file-input" />
+                    <button type="submit" class="button file-button">
+                        <span class="button-text">Analyze File</span>
+                        <div class="spinner hidden"></div>
+                    </button>
+                </form>
+                <div id="fileResult" class="file-result hidden"></div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Powered by <a href="https://github.com/RiturajSingh2004" target="_blank">github.com/RiturajSingh2004</a></p>
+        </footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

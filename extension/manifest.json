@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Cyber Sentinal",
+  "version": "1.2",
+  "description": "Cyber Sentinal is a browser extension that helps you to stay safe online by providing you knowledge about what are you working with.",
+  "permissions": [
+    "activeTab", 
+    "scripting", 
+    "storage", 
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "http://localhost:5000/*",
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png", 
+    "128": "icon128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "author": "github.com/RiturajSingh2004"
+}
