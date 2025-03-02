@@ -117,4 +117,4 @@ This project is licensed under the MIT License.
 
 ## Authors & Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request.
+Made under ZerodayTeaming. Contributions are welcome! Please open an issue or submit a pull request.
