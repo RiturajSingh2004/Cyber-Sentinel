@@ -1,6 +1,9 @@
 # Cyber Sentinel
 
-## Overview
+![Python](https://img.shields.io/badge/Python-3.8%2B-green.svg)  
+![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)  
+
+## 📌 Overview
 
 Cyber Sentinel is a browser extension designed to enhance online security by analyzing web pages and files for potential threats. The extension integrates real-time URL verification, file scanning, and AI-powered threat detection to provide users with a comprehensive cybersecurity tool.
 
@@ -108,10 +111,10 @@ Cyber Sentinel is a browser extension designed to enhance online security by ana
 - Enhanced detection for **JavaScript-based exploits and zero-day vulnerabilities**.
 ---
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License.
 
-## Author
+## Contributing
 
-Developed by **Rituraj Singh**. For contributions and issues, visit [GitHub](https://github.com/RiturajSingh2004).
+Contributions are welcome! Please open an issue or submit a pull request.
