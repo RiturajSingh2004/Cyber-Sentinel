@@ -34,7 +34,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Google Safe Browsing API Configuration
-SAFE_BROWSING_API_KEY = os.environ.get('AIzaSyDzadr0euyPyy6OdKB9uh_WKxUt2N_IfTk', '')  # Set via environment variable
+SAFE_BROWSING_API_KEY = os.environ.get('YOUR_API_KEY', '')  # Set via environment variable
 SAFE_BROWSING_API_URL = 'https://safebrowsing.googleapis.com/v4/threatMatches:find'
 
 class GoogleSafeBrowsing:
